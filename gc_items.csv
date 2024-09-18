@@ -1,0 +1,622 @@
+Item,Name,RequiredGCRank,GCSealsCost,StackSize,IsUnique,IsTradeable
+5594,Grade 1 Dark Matter,1,12,999,False,True
+5595,Grade 2 Dark Matter,1,34,999,False,True
+5596,Grade 3 Dark Matter,1,70,999,False,True
+4564,Antidote,1,120,999,False,True
+4566,Echo Drops,1,290,999,False,True
+21072,Venture,1,200,65000,False,True
+6017,Storm Chocobo Issuance,1,200,1,True,False
+15855,Althyk Lavender Seeds,1,500,999,False,True
+15856,Voidrake Seeds,1,500,999,False,True
+4568,Spine Drops,2,1010,999,False,True
+4567,Smelling Salts,2,1710,999,False,True
+4632,Company-issue Engineering Manual,3,1440,999,False,False
+4633,Company-issue Survival Manual,3,1440,999,False,False
+5597,Grade 4 Dark Matter,4,138,999,False,True
+5598,Grade 5 Dark Matter,4,230,999,False,True
+1619,Storm Private's Sword,1,1060,1,True,False
+1691,Storm Private's Hora,1,1060,1,True,False
+1761,Storm Private's Axe,1,1060,1,True,False
+1830,Storm Private's Harpoon,1,1060,1,True,False
+1903,Storm Private's Shortbow,1,1060,1,True,False
+2008,Storm Private's Cane,1,1060,1,True,False
+2114,Storm Private's Staff,1,1060,1,True,False
+2154,Storm Private's Grimoire,1,1060,1,True,False
+9191,Storm Private's Baselards,1,1060,1,True,False
+1630,Storm Private's Spatha,4,1770,1,True,False
+1703,Storm Private's Cesti,4,1770,1,True,False
+1773,Storm Private's Labrys,4,1770,1,True,False
+1842,Storm Private's Spear,4,1770,1,True,False
+1912,Storm Private's Bow,4,1770,1,True,False
+2018,Storm Private's Crook,4,1770,1,True,False
+2074,Storm Private's Brand,4,1770,1,True,False
+2163,Storm Private's Picatrix,4,1770,1,True,False
+9200,Storm Private's Daggers,4,1770,1,True,False
+10420,Storm Private's Zweihander,4,1770,1,True,False
+10482,Storm Private's Musketoon,4,1770,1,True,False
+10544,Storm Private's Planisphere,4,1770,1,True,False
+2716,Lominsan Soldier's Cap,1,680,1,True,False
+3048,Lominsan Soldier's Overcoat,1,1040,1,True,False
+3566,Lominsan Soldier's Gloves,1,660,1,True,False
+3797,Lominsan Soldier's Boots,1,730,1,True,False
+3073,Storm Private's Apron,2,1390,1,True,False
+3072,Storm Private's Doublet Vest,2,1390,1,True,False
+3815,Storm Private's Sabatons,2,970,1,True,False
+3814,Storm Private's Leggings,2,970,1,True,False
+3816,Storm Private's Boots,2,970,1,True,False
+4437,Storm Private's Ring,2,540,1,True,False
+2253,Storm Private's Scutum,3,1520,1,True,False
+3084,Storm Private's Cuirass,3,1470,1,True,False
+3082,Storm Private's Chainmail,3,1470,1,True,False
+3085,Storm Private's Acton,3,1470,1,True,False
+3083,Storm Private's Dalmatica,3,1470,1,True,False
+3592,Storm Private's Gauntlets,3,1050,1,True,False
+3359,Storm Private's Slops,3,1080,1,True,False
+3360,Storm Private's Chausses,3,1080,1,True,False
+4319,Patriot's Choker,3,720,1,True,False
+3593,Storm Private's Ringbands,3,1050,1,True,False
+3591,Storm Private's Wristguards,3,1050,1,True,False
+2761,Storm Private's Sallet,4,1280,1,True,False
+3113,Storm Private's Haubergeon,4,1960,1,True,False
+3114,Storm Private's Jacket,4,1960,1,True,False
+3112,Storm Private's Bliaud,4,1960,1,True,False
+3375,Storm Private's Trousers,4,1360,1,True,False
+4123,Patriot's Bracelet,4,1210,1,True,False
+6020,Lominsan Half Barding,5,4000,1,True,False
+4561,Dusken Draught,5,2850,1,True,False
+6021,Lominsan Barding,6,6000,1,True,False
+4634,Company-issue Engineering Manual II,7,2300,999,False,False
+4635,Company-issue Survival Manual II,7,2300,999,False,False
+4636,Sanction,8,2730,1,True,False
+6022,Lominsan Crested Barding,8,8000,1,True,False
+6141,Cordial,8,500,999,False,True
+7060,Durability Draught,8,1000,999,False,False
+7059,Spiritbond Potion,8,1500,999,False,True
+6526,Storm Storage Bench,8,5050,1,False,True
+6553,Storm Armoire,8,6900,1,False,True
+6538,Storm Desk,8,8300,1,False,True
+6556,Storm Strongbox,8,6700,1,False,True
+6545,Storm Utility Cot,8,9070,1,False,True
+6662,Eorzean Map,8,1100,1,False,True
+6656,Maelstrom Banner,8,4900,1,False,True
+6470,Storm Ceiling Fan & Lamp,8,6800,1,False,True
+7621,Glamour Dispeller,8,200,999,False,True
+21800,Glamour Prism,8,200,999,False,True
+1646,Lominsan Shortsword,6,2970,1,True,False
+1714,Lominsan Baghnakhs,6,2970,1,True,False
+1784,Lominsan War Axe,6,2970,1,True,False
+1853,Lominsan Guisarme,6,2970,1,True,False
+1923,Lominsan Composite Bow,6,2970,1,True,False
+2029,Lominsan Radical,6,2970,1,True,False
+2127,Lominsan Staff,6,2970,1,True,False
+2172,Lominsan Grimoire,6,2970,1,True,False
+9207,Lominsan Pugiones,6,2970,1,True,False
+10423,Lominsan Claymore,6,2970,1,True,False
+10485,Lominsan Musketoon,6,2970,1,True,False
+10547,Lominsan Star Globe,6,2970,1,True,False
+1654,Lominsan Broadsword,7,3530,1,True,False
+1721,Lominsan Knuckles,7,3530,1,True,False
+1791,Lominsan Bill,7,3530,1,True,False
+1790,Lominsan Bhuj,7,3530,1,True,False
+1859,Lominsan Halberd,7,3530,1,True,False
+1860,Lominsan Lance,7,3530,1,True,False
+1929,Lominsan Bow,7,3530,1,True,False
+2034,Lominsan Cane,7,3530,1,True,False
+2085,Lominsan Cudgel,7,3530,1,True,False
+2086,Lominsan Scepter,7,3530,1,True,False
+2179,Lominsan Picatrix,7,3530,1,True,False
+9212,Lominsan Stilettos,7,3530,1,True,False
+10426,Lominsan Estramacon,7,3530,1,True,False
+10488,Lominsan Carbine,7,3530,1,True,False
+10550,Lominsan Planisphere,7,3530,1,True,False
+1726,Storm Sergeant's Hooks,8,4200,1,True,False
+1794,Storm Sergeant's Axe,8,4200,1,True,False
+1865,Storm Sergeant's Spear,8,4200,1,True,False
+1935,Storm Sergeant's Bow,8,4200,1,True,False
+2037,Storm Sergeant's Radical,8,4200,1,True,False
+2091,Storm Sergeant's Cudgel,8,4200,1,True,False
+2182,Storm Sergeant's Book of Iron,8,4200,1,True,False
+9217,Storm Sergeant's Knives,8,4200,1,True,False
+10429,Storm Sergeant's Claymore,8,4200,1,True,False
+10491,Storm Sergeant's Musketoon,8,4200,1,True,False
+10553,Storm Sergeant's Star Globe,8,4200,1,True,False
+3393,Storm Sergeant's Skirt,5,1620,1,True,False
+3392,Storm Sergeant's Kecks,5,1620,1,True,False
+3391,Storm Sergeant's Breeches,5,1620,1,True,False
+4229,Storm Sergeant's Ear Cuffs,5,1190,1,True,False
+2266,Lominsan Kite Shield,6,2540,1,True,False
+3633,Storm Sergeant's Wristguards,6,1960,1,True,False
+3635,Storm Sergeant's Shortgloves,6,1960,1,True,False
+3634,Storm Sergeant's Mitts,6,1960,1,True,False
+4128,Storm Sergeant's Bracelet,6,1710,1,True,False
+2275,Lominsan Lantern Shield,7,3380,1,True,False
+3156,Storm Sergeant's Apron,7,3280,1,True,False
+3155,Storm Sergeant's Tabard,7,3280,1,True,False
+3154,Storm Sergeant's Bliaud,7,3280,1,True,False
+3876,Storm Sergeant's Crakows,7,2710,1,True,False
+3877,Storm Sergeant's Jackboots,7,2710,1,True,False
+3875,Storm Sergeant's Leggings,7,2710,1,True,False
+4355,Storm Sergeant's Choker,7,1710,1,True,False
+2283,Storm Sergeant's Targe,8,4020,1,True,False
+2284,Storm Sergeant's Hoplon,8,4020,1,True,False
+2843,Storm Sergeant's Circlet,8,2860,1,True,False
+2842,Storm Sergeant's Sallet,8,2860,1,True,False
+2845,Storm Sergeant's Beret,8,2860,1,True,False
+2844,Storm Sergeant's Mask,8,2860,1,True,False
+3437,Storm Sergeant's Sarouel,8,3040,1,True,False
+3436,Storm Sergeant's Trousers,8,3040,1,True,False
+3438,Storm Sergeant's Hose,8,3040,1,True,False
+4252,Storm Sergeant's Earrings,8,2500,1,True,False
+4490,Stormbringer's Ring,8,1900,1,True,False
+4491,Stormcarrier's Ring,8,1900,1,True,False
+4495,Storm Sergeant's Ring,8,2010,1,True,False
+10386,Grade 6 Dark Matter,9,345,999,False,True
+6170,Storm Hatchling,9,20000,1,True,False
+7799,Reagan Pepper,9,48000,999,False,False
+7095,Admiral Portrait,9,19150,1,False,True
+7133,Storm Interior Wall,9,10950,1,False,True
+7143,Storm Flooring,9,10950,1,False,True
+6600,Miniature Aetheryte,9,14470,1,False,True
+9539,Bombard Core,9,20000,999,False,False
+10124,Moonstone,9,4000,999,False,False
+10120,Magicked Oilcloth,9,600,999,False,False
+10121,Bamboo Paper,9,600,999,False,False
+10122,Glacier Crystal,9,600,999,False,False
+13589,Adamantite Francesca,9,5000,999,False,True
+13591,Titanium Alloy Mirror,9,5000,999,False,True
+13593,Dispelling Arrow,9,5000,999,False,True
+13595,Kingcake,9,5000,999,False,True
+14945,Squadron Enlistment Manual,10,2000,999,False,False
+15772,Contemporary Warfare: Defense,10,3000,999,False,False
+15773,Contemporary Warfare: Offense,10,3000,999,False,False
+15774,Contemporary Warfare: Magicks,10,3000,999,False,False
+17837,Grade 7 Dark Matter,9,575,999,False,True
+20790,High-grade Company-issue Tonic,10,500,999,False,False
+21069,Maelstrom Aetheryte Ticket,10,2000,999,False,False
+12858,Cockatrice Meatballs,9,600,999,False,True
+13743,Sesame Cookie,9,550,999,False,True
+12844,Hot Chocolate,9,900,999,False,True
+12849,Kaiser Roll,9,550,999,False,True
+12847,Marron Glace,9,700,999,False,True
+12854,Morel Salad,9,800,999,False,True
+4720,Fish Soup,9,500,999,False,True
+4715,Trapper's Quiche,9,500,999,False,True
+21319,Battlefield Etiquette - Attention,9,40000,1,True,False
+21320,Battlefield Etiquette - At Ease,9,40000,1,True,False
+22498,Ballroom Etiquette - Reflection,9,10000,1,True,False
+33916,Grade 8 Dark Matter,9,600,999,False,True
+36635,Materiel Container 3.0,11,20000,999,False,False
+36636,Materiel Container 4.0,11,20000,999,False,False
+38642,Maelstrom Command Orchestrion Roll,11,40000,999,False,True
+38645,Ripples in the Sea Orchestrion Roll,11,40000,999,False,True
+1668,Storm Officer's Cutlass,9,7040,1,True,False
+1738,Storm Officer's Hooks,9,7040,1,True,False
+1808,Storm Officer's Labrys,9,7040,1,True,False
+1877,Storm Officer's Trident,9,7040,1,True,False
+1947,Storm Officer's Bow,9,7040,1,True,False
+1990,Storm Officer's Wand,9,7040,1,True,False
+2100,Storm Officer's Scepter,9,7040,1,True,False
+2197,Lominsan Officer's Grimoire of Casting,9,7040,1,True,False
+2198,Lominsan Officer's Grimoire of Healing,9,7040,1,True,False
+9222,Storm Officer's Knives,9,7040,1,True,False
+10432,Storm Officer's Claymore,9,7040,1,True,False
+10494,Storm Officer's Musketoon,9,7040,1,True,False
+10556,Storm Officer's Astrometer,9,7040,1,True,False
+7523,Artisan's Chocobotail Saw,9,7500,1,False,False
+7524,Artisan's Cross-pein Hammer,9,7500,1,False,False
+7525,Artisan's Raising Hammer,9,7500,1,False,False
+7526,Artisan's Mallet,9,7500,1,False,False
+7527,Artisan's Round Knife,9,7500,1,False,False
+7528,Artisan's Needle,9,7500,1,False,False
+7529,Artisan's Alembic,9,7500,1,False,False
+7530,Artisan's Frypan,9,7500,1,False,False
+7531,Forager's Dolabra,9,7500,1,False,False
+7532,Forager's Hatchet,9,7500,1,False,False
+7533,Forager's Fishing Rod,9,7500,1,False,False
+23918,Storm Captain's Cutlass,11,35000,1,True,False
+23921,Storm Captain's Claws,11,35000,1,True,False
+23924,Storm Captain's Labrys,11,35000,1,True,False
+23927,Storm Captain's Spear,11,35000,1,True,False
+23930,Storm Captain's Bow,11,35000,1,True,False
+23933,Storm Captain's Kris,11,35000,1,True,False
+23936,Storm Captain's Falx,11,35000,1,True,False
+23939,Storm Captain's Musketoon,11,35000,1,True,False
+23942,Storm Captain's Cane,11,35000,1,True,False
+23945,Storm Captain's Rod,11,35000,1,True,False
+23948,Storm Captain's Grimoire,11,35000,1,True,False
+23951,Storm Captain's Codex,11,35000,1,True,False
+23954,Storm Captain's Astrometer,11,35000,1,True,False
+23957,Storm Captain's Katana,11,35000,1,True,False
+23960,Storm Captain's Rapier,11,35000,1,True,False
+2917,Lominsan Officer's Cap,9,4800,1,True,False
+3246,Lominsan Officer's Overcoat,9,7340,1,True,False
+3703,Lominsan Officer's Gloves,9,4650,1,True,False
+3924,Lominsan Officer's Boots,9,5100,1,True,False
+15495,Storm Lieutenant's Tricorne,10,12000,1,True,False
+15496,Storm Lieutenant's Jacket,10,21000,1,True,False
+7521,Artisan's Spectacles,9,5000,1,False,False
+7522,Forager's Hat,9,5000,1,False,False
+10047,Artisan's Fingerstalls,9,5000,1,True,False
+10048,Artisan's Chausses,9,5000,1,True,False
+10053,Artisan's Gown,9,6500,1,True,False
+10145,Artisan's Pattens,9,5000,1,True,False
+6018,Serpent Chocobo Issuance,1,200,1,True,False
+1618,Serpent Private's Sword,1,1060,1,True,False
+1690,Serpent Private's Hora,1,1060,1,True,False
+1760,Serpent Private's Axe,1,1060,1,True,False
+1829,Serpent Private's Harpoon,1,1060,1,True,False
+1902,Serpent Private's Shortbow,1,1060,1,True,False
+2007,Serpent Private's Cane,1,1060,1,True,False
+2113,Serpent Private's Staff,1,1060,1,True,False
+2153,Serpent Private's Grimoire,1,1060,1,True,False
+9190,Serpent Private's Baselards,1,1060,1,True,False
+1629,Serpent Private's Spatha,4,1770,1,True,False
+1702,Serpent Private's Cesti,4,1770,1,True,False
+1772,Serpent Private's Labrys,4,1770,1,True,False
+1841,Serpent Private's Spear,4,1770,1,True,False
+1911,Serpent Private's Bow,4,1770,1,True,False
+2017,Serpent Private's Crook,4,1770,1,True,False
+2073,Serpent Private's Brand,4,1770,1,True,False
+2162,Serpent Private's Picatrix,4,1770,1,True,False
+9199,Serpent Private's Daggers,4,1770,1,True,False
+10419,Serpent Private's Zweihander,4,1770,1,True,False
+10481,Serpent Private's Musketoon,4,1770,1,True,False
+10543,Serpent Private's Planisphere,4,1770,1,True,False
+2715,Gridanian Soldier's Cap,1,680,1,True,False
+3047,Gridanian Soldier's Overcoat,1,1040,1,True,False
+3565,Gridanian Soldier's Gloves,1,660,1,True,False
+3796,Gridanian Soldier's Boots,1,730,1,True,False
+3071,Serpent Private's Coatee,2,1390,1,True,False
+3070,Serpent Private's Doublet,2,1390,1,True,False
+3812,Serpent Private's Sabatons,2,970,1,True,False
+3811,Serpent Private's Moccasins,2,970,1,True,False
+3813,Serpent Private's Boots,2,970,1,True,False
+4436,Serpent Private's Ring,2,540,1,True,False
+2252,Serpent Private's Targe,3,1520,1,True,False
+3080,Serpent Private's Cuirass,3,1470,1,True,False
+3081,Serpent Private's Chainmail,3,1470,1,True,False
+3078,Serpent Private's Jacket,3,1470,1,True,False
+3079,Serpent Private's Cowl,3,1470,1,True,False
+3589,Serpent Private's Gauntlets,3,1050,1,True,False
+3588,Serpent Private's Bracers,3,1050,1,True,False
+3590,Serpent Private's Ringbands,3,1050,1,True,False
+3357,Serpent Private's Slops,3,1080,1,True,False
+3358,Serpent Private's Bottoms,3,1080,1,True,False
+2760,Serpent Private's Coif,4,1280,1,True,False
+3110,Serpent Private's Haubergeon,4,1960,1,True,False
+3109,Serpent Private's Tunic,4,1960,1,True,False
+3111,Serpent Private's Bliaud,4,1960,1,True,False
+3374,Serpent Private's Kecks,4,1360,1,True,False
+6023,Gridanian Half Barding,5,4000,1,True,False
+4562,Kiss of the Morning Meadow,5,2850,1,True,False
+6024,Gridanian Barding,6,6000,1,True,False
+6025,Gridanian Crested Barding,8,8000,1,True,False
+6528,Serpent Storage Bench,8,5050,1,False,True
+6554,Serpent Armoire,8,6900,1,False,True
+6539,Serpent Desk,8,8300,1,False,True
+6557,Serpent Strongbox,8,6700,1,False,True
+6546,Serpent Utility Cot,8,9070,1,False,True
+6657,Twin Adder Banner,8,4900,1,False,True
+6472,Serpent Ceiling Fan & Lamp,8,6800,1,False,True
+1645,Gridanian Macuahuitl,6,2970,1,True,False
+1713,Gridanian Knuckles,6,2970,1,True,False
+1783,Gridanian Bill,6,2970,1,True,False
+1852,Gridanian Fork,6,2970,1,True,False
+1922,Gridanian Longbow,6,2970,1,True,False
+2028,Gridanian Cane,6,2970,1,True,False
+2081,Gridanian Scepter,6,2970,1,True,False
+2171,Gridanian Grimoire,6,2970,1,True,False
+9206,Gridanian Pugiones,6,2970,1,True,False
+10422,Gridanian Claymore,6,2970,1,True,False
+10484,Gridanian Musketoon,6,2970,1,True,False
+10546,Gridanian Star Globe,6,2970,1,True,False
+1653,Gridanian Spatha,7,3530,1,True,False
+1720,Gridanian Hora,7,3530,1,True,False
+1719,Gridanian Baghnakhs,7,3530,1,True,False
+1789,Gridanian Labrys,7,3530,1,True,False
+1858,Gridanian Harpoon,7,3530,1,True,False
+1928,Gridanian Shortbow,7,3530,1,True,False
+1980,Gridanian Wand,7,3530,1,True,False
+2033,Gridanian Radical,7,3530,1,True,False
+2129,Gridanian Staff,7,3530,1,True,False
+2178,Gridanian Picatrix,7,3530,1,True,False
+9211,Gridanian Stilettos,7,3530,1,True,False
+10425,Gridanian Estramacon,7,3530,1,True,False
+10487,Gridanian Carbine,7,3530,1,True,False
+10549,Gridanian Planisphere,7,3530,1,True,False
+1725,Serpent Sergeant's Patas,8,4200,1,True,False
+1793,Serpent Sergeant's Axe,8,4200,1,True,False
+1864,Serpent Sergeant's Spear,8,4200,1,True,False
+1934,Serpent Sergeant's Bow,8,4200,1,True,False
+2036,Serpent Sergeant's Radical,8,4200,1,True,False
+2090,Serpent Sergeant's Cudgel,8,4200,1,True,False
+2181,Serpent Sergeant's Book of Bronze,8,4200,1,True,False
+9216,Serpent Sergeant's Knives,8,4200,1,True,False
+10428,Serpent Sergeant's Claymore,8,4200,1,True,False
+10490,Serpent Sergeant's Musketoon,8,4200,1,True,False
+10552,Serpent Sergeant's Star Globe,8,4200,1,True,False
+3390,Serpent Sergeant's Skirt,5,1620,1,True,False
+3388,Serpent Sergeant's Trousers,5,1620,1,True,False
+3389,Serpent Sergeant's Breeches,5,1620,1,True,False
+4228,Serpent Sergeant's Ear Cuffs,5,1190,1,True,False
+2265,Gridanian Square Shield,6,2540,1,True,False
+3630,Serpent Sergeant's Bracers,6,1960,1,True,False
+3632,Serpent Sergeant's Shortgloves,6,1960,1,True,False
+3631,Serpent Sergeant's Mitts,6,1960,1,True,False
+4127,Serpent Sergeant's Bracelet,6,1710,1,True,False
+2273,Gridanian Shield,7,3380,1,True,False
+2274,Gridanian Buckler,7,3380,1,True,False
+3153,Serpent Sergeant's Apron,7,3280,1,True,False
+3151,Serpent Sergeant's Tunic,7,3280,1,True,False
+3152,Serpent Sergeant's Tabard,7,3280,1,True,False
+3873,Serpent Sergeant's Crakows,7,2710,1,True,False
+3874,Serpent Sergeant's Jackboots,7,2710,1,True,False
+3872,Serpent Sergeant's Moccasins,7,2710,1,True,False
+4354,Serpent Sergeant's Choker,7,1710,1,True,False
+2281,Serpent Sergeant's Targe,8,4020,1,True,False
+2282,Serpent Sergeant's Hoplon,8,4020,1,True,False
+2839,Serpent Sergeant's Circlet,8,2860,1,True,False
+2838,Serpent Sergeant's Coif,8,2860,1,True,False
+2841,Serpent Sergeant's Beret,8,2860,1,True,False
+2840,Serpent Sergeant's Mask,8,2860,1,True,False
+3434,Serpent Sergeant's Sarouel,8,3040,1,True,False
+3433,Serpent Sergeant's Kecks,8,3040,1,True,False
+3435,Serpent Sergeant's Hose,8,3040,1,True,False
+4251,Serpent Sergeant's Earrings,8,2500,1,True,False
+4488,Serpentbringer's Ring,8,1900,1,True,False
+4489,Serpentcarrier's Ring,8,1900,1,True,False
+4494,Serpent Sergeant's Ring,8,2010,1,True,False
+6171,Serpent Hatchling,9,20000,1,True,False
+7097,Elder Seedseer Portrait,9,19150,1,False,True
+7134,Serpent Interior Wall,9,10950,1,False,True
+7144,Serpent Flooring,9,10950,1,False,True
+21070,Twin Adder Aetheryte Ticket,10,2000,999,False,False
+38641,Into the Adder's Den Orchestrion Roll,11,40000,999,False,True
+38644,Dewdrops & Moonbeams Orchestrion Roll,11,40000,999,False,True
+1667,Serpent Officer's Longsword,9,7040,1,True,False
+1737,Serpent Officer's Claws,9,7040,1,True,False
+1807,Serpent Officer's Bardiche,9,7040,1,True,False
+1876,Serpent Officer's Spear,9,7040,1,True,False
+1946,Serpent Officer's Bow,9,7040,1,True,False
+1989,Serpent Officer's Wand,9,7040,1,True,False
+2099,Serpent Officer's Scepter,9,7040,1,True,False
+2195,Gridanian Officer's Grimoire of Casting,9,7040,1,True,False
+2196,Gridanian Officer's Grimoire of Healing,9,7040,1,True,False
+9221,Serpent Officer's Knives,9,7040,1,True,False
+10431,Serpent Officer's Claymore,9,7040,1,True,False
+10493,Serpent Officer's Musketoon,9,7040,1,True,False
+10555,Serpent Officer's Planisphere,9,7040,1,True,False
+23917,Serpent Captain's Longsword,11,35000,1,True,False
+23920,Serpent Captain's Jamadhars,11,35000,1,True,False
+23923,Serpent Captain's Bardiche,11,35000,1,True,False
+23926,Serpent Captain's Spear,11,35000,1,True,False
+23929,Serpent Captain's Bow,11,35000,1,True,False
+23932,Serpent Captain's Knives,11,35000,1,True,False
+23935,Serpent Captain's Greatsword,11,35000,1,True,False
+23938,Serpent Captain's Musketoon,11,35000,1,True,False
+23941,Serpent Captain's Cane,11,35000,1,True,False
+23944,Serpent Captain's Rod,11,35000,1,True,False
+23947,Serpent Captain's Grimoire,11,35000,1,True,False
+23950,Serpent Captain's Codex,11,35000,1,True,False
+23953,Serpent Captain's Planisphere,11,35000,1,True,False
+23956,Serpent Captain's Katana,11,35000,1,True,False
+23959,Serpent Captain's Smallsword,11,35000,1,True,False
+2916,Gridanian Officer's Cap,9,4800,1,True,False
+3245,Gridanian Officer's Overcoat,9,7340,1,True,False
+3702,Gridanian Officer's Gloves,9,4650,1,True,False
+3923,Gridanian Officer's Boots,9,5100,1,True,False
+15499,Serpent Lieutenant's Hat,10,12000,1,True,False
+15500,Serpent Lieutenant's Coat,10,21000,1,True,False
+6019,Flame Chocobo Issuance,1,200,1,True,False
+1620,Flame Private's Sword,1,1060,1,True,False
+1692,Flame Private's Hora,1,1060,1,True,False
+1762,Flame Private's Axe,1,1060,1,True,False
+1831,Flame Private's Harpoon,1,1060,1,True,False
+1904,Flame Private's Shortbow,1,1060,1,True,False
+2009,Flame Private's Cane,1,1060,1,True,False
+2115,Flame Private's Staff,1,1060,1,True,False
+2155,Flame Private's Grimoire,1,1060,1,True,False
+9192,Flame Private's Baselards,1,1060,1,True,False
+1631,Flame Private's Spatha,4,1770,1,True,False
+1704,Flame Private's Cesti,4,1770,1,True,False
+1774,Flame Private's Labrys,4,1770,1,True,False
+1843,Flame Private's Spear,4,1770,1,True,False
+1913,Flame Private's Bow,4,1770,1,True,False
+2019,Flame Private's Crook,4,1770,1,True,False
+2075,Flame Private's Brand,4,1770,1,True,False
+2164,Flame Private's Picatrix,4,1770,1,True,False
+9201,Flame Private's Daggers,4,1770,1,True,False
+10421,Flame Private's Zweihander,4,1770,1,True,False
+10483,Flame Private's Musketoon,4,1770,1,True,False
+10545,Flame Private's Planisphere,4,1770,1,True,False
+2717,Ul'dahn Soldier's Cap,1,680,1,True,False
+3049,Ul'dahn Soldier's Overcoat,1,1040,1,True,False
+3567,Ul'dahn Soldier's Gloves,1,660,1,True,False
+3798,Ul'dahn Soldier's Boots,1,730,1,True,False
+3074,Flame Private's Gown,2,1390,1,True,False
+3075,Flame Private's Jerkin,2,1390,1,True,False
+3818,Flame Private's Sabatons,2,970,1,True,False
+3819,Flame Private's Jackboots,2,970,1,True,False
+3820,Flame Private's Boots,2,970,1,True,False
+3817,Flame Private's Crakows,2,970,1,True,False
+4438,Flame Private's Ring,2,540,1,True,False
+2254,Flame Private's Shield,3,1520,1,True,False
+3088,Flame Private's Cuirass,3,1470,1,True,False
+3089,Flame Private's Chainmail,3,1470,1,True,False
+3087,Flame Private's Harness,3,1470,1,True,False
+3086,Flame Private's Robe,3,1470,1,True,False
+3595,Flame Private's Gauntlets,3,1050,1,True,False
+3594,Flame Private's Halfgloves,3,1050,1,True,False
+3596,Flame Private's Ringbands,3,1050,1,True,False
+3362,Flame Private's Culottes,3,1080,1,True,False
+3361,Flame Private's Chausses,3,1080,1,True,False
+2762,Flame Private's Pot Helm,4,1280,1,True,False
+3116,Flame Private's Haubergeon,4,1960,1,True,False
+3115,Flame Private's Shirt,4,1960,1,True,False
+3117,Flame Private's Bliaud,4,1960,1,True,False
+3376,Flame Private's Sarouel,4,1360,1,True,False
+6026,Ul'dahn Half Barding,5,4000,1,True,False
+4563,Onyx Tears,5,2850,1,True,False
+6027,Ul'dahn Barding,6,6000,1,True,False
+6028,Ul'dahn Crested Barding,8,8000,1,True,False
+6527,Flame Storage Bench,8,5050,1,False,True
+6555,Flame Armoire,8,6900,1,False,True
+6540,Flame Desk,8,8300,1,False,True
+6558,Flame Strongbox,8,6700,1,False,True
+6547,Flame Utility Cot,8,9070,1,False,True
+6658,Immortal Flames Banner,8,4900,1,False,True
+6471,Flame Ceiling Fan & Lamp,8,6800,1,False,True
+1647,Ul'dahn Falchion,6,2970,1,True,False
+1715,Ul'dahn Hora,6,2970,1,True,False
+1785,Ul'dahn Bhuj,6,2970,1,True,False
+1854,Ul'dahn Halberd,6,2970,1,True,False
+1924,Ul'dahn Shortbow,6,2970,1,True,False
+1973,Ul'dahn Wand,6,2970,1,True,False
+2082,Ul'dahn Brand,6,2970,1,True,False
+2173,Ul'dahn Grimoire,6,2970,1,True,False
+9208,Ul'dahn Pugiones,6,2970,1,True,False
+10424,Ul'dahn Claymore,6,2970,1,True,False
+10486,Ul'dahn Musketoon,6,2970,1,True,False
+10548,Ul'dahn Star Globe,6,2970,1,True,False
+1655,Ul'dahn Scimitar,7,3530,1,True,False
+1656,Ul'dahn Winglet,7,3530,1,True,False
+1722,Ul'dahn Himantes,7,3530,1,True,False
+1792,Ul'dahn Bardiche,7,3530,1,True,False
+1861,Ul'dahn Guisarme,7,3530,1,True,False
+1931,Ul'dahn Composite Bow,7,3530,1,True,False
+1930,Ul'dahn Longbow,7,3530,1,True,False
+2035,Ul'dahn Crook,7,3530,1,True,False
+2087,Ul'dahn Cudgel,7,3530,1,True,False
+2180,Ul'dahn Picatrix,7,3530,1,True,False
+9213,Ul'dahn Stilettos,7,3530,1,True,False
+10427,Ul'dahn Estramacon,7,3530,1,True,False
+10489,Ul'dahn Carbine,7,3530,1,True,False
+10551,Ul'dahn Planisphere,7,3530,1,True,False
+1727,Flame Sergeant's Patas,8,4200,1,True,False
+1795,Flame Sergeant's Axe,8,4200,1,True,False
+1866,Flame Sergeant's Spear,8,4200,1,True,False
+1936,Flame Sergeant's Bow,8,4200,1,True,False
+2038,Flame Sergeant's Radical,8,4200,1,True,False
+2092,Flame Sergeant's Cudgel,8,4200,1,True,False
+2183,Flame Sergeant's Book of Brass,8,4200,1,True,False
+9218,Flame Sergeant's Knives,8,4200,1,True,False
+10430,Flame Sergeant's Claymore,8,4200,1,True,False
+10492,Flame Sergeant's Musketoon,8,4200,1,True,False
+10554,Flame Sergeant's Star Globe,8,4200,1,True,False
+3396,Flame Sergeant's Trousers,5,1620,1,True,False
+3394,Flame Sergeant's Subligar,5,1620,1,True,False
+3395,Flame Sergeant's Tights,5,1620,1,True,False
+4230,Flame Sergeant's Ear Cuffs,5,1190,1,True,False
+2267,Ul'dahn Round Shield,6,2540,1,True,False
+3636,Flame Sergeant's Halfgloves,6,1960,1,True,False
+3638,Flame Sergeant's Shortgloves,6,1960,1,True,False
+3637,Flame Sergeant's Mitts,6,1960,1,True,False
+4129,Flame Sergeant's Bracelet,6,1710,1,True,False
+2276,Ul'dahn Scutum,7,3380,1,True,False
+2277,Ul'dahn Hoplon,7,3380,1,True,False
+3159,Flame Sergeant's Apron,7,3280,1,True,False
+3157,Flame Sergeant's Shirt,7,3280,1,True,False
+3158,Flame Sergeant's Tabard,7,3280,1,True,False
+3878,Flame Sergeant's Crakows,7,2710,1,True,False
+3880,Flame Sergeant's Jackboots,7,2710,1,True,False
+3879,Flame Sergeant's Thighboots,7,2710,1,True,False
+4356,Flame Sergeant's Choker,7,1710,1,True,False
+2285,Flame Sergeant's Targe,8,4020,1,True,False
+2286,Flame Sergeant's Shield,8,4020,1,True,False
+2847,Flame Sergeant's Circlet,8,2860,1,True,False
+2846,Flame Sergeant's Pot Helm,8,2860,1,True,False
+2849,Flame Sergeant's Beret,8,2860,1,True,False
+2848,Flame Sergeant's Mask,8,2860,1,True,False
+3439,Flame Sergeant's Sarouel,8,3040,1,True,False
+3440,Flame Sergeant's Skirt,8,3040,1,True,False
+3441,Flame Sergeant's Hose,8,3040,1,True,False
+4253,Flame Sergeant's Earrings,8,2500,1,True,False
+4492,Flamebringer's Ring,8,1900,1,True,False
+4493,Flamecarrier's Ring,8,1900,1,True,False
+4496,Flame Sergeant's Ring,8,2010,1,True,False
+6172,Flame Hatchling,9,20000,1,True,False
+7152,Sultana Portrait,9,19150,1,False,True
+7096,Sultana and Flame General Portrait,9,19150,1,False,True
+7135,Flame Interior Wall,9,10950,1,False,True
+7145,Flame Flooring,9,10950,1,False,True
+21071,Immortal Flames Aetheryte Ticket,10,2000,999,False,False
+38643,The Hall of Flames Orchestrion Roll,11,40000,999,False,True
+38646,The Sands' Secrets Orchestrion Roll,11,40000,999,False,True
+1669,Flame Officer's Katzbalger,9,7040,1,True,False
+1739,Flame Officer's Jamadhars,9,7040,1,True,False
+1809,Flame Officer's Axe,9,7040,1,True,False
+1878,Flame Officer's Spear,9,7040,1,True,False
+1948,Flame Officer's Bow,9,7040,1,True,False
+1991,Flame Officer's Wand,9,7040,1,True,False
+2101,Flame Officer's Cudgel,9,7040,1,True,False
+2199,Ul'dahn Officer's Grimoire of Casting,9,7040,1,True,False
+2200,Ul'dahn Officer's Grimoire of Healing,9,7040,1,True,False
+9223,Flame Officer's Machetes,9,7040,1,True,False
+10433,Flame Officer's Claymore,9,7040,1,True,False
+10495,Flame Officer's Handgonne,9,7040,1,True,False
+10557,Flame Officer's Star Globe,9,7040,1,True,False
+23919,Flame Captain's Katzbalger,11,35000,1,True,False
+23922,Flame Captain's Jamadhars,11,35000,1,True,False
+23925,Flame Captain's Axe,11,35000,1,True,False
+23928,Flame Captain's Spear,11,35000,1,True,False
+23931,Flame Captain's Bow,11,35000,1,True,False
+23934,Flame Captain's Machetes,11,35000,1,True,False
+23937,Flame Captain's Guillotine,11,35000,1,True,False
+23940,Flame Captain's Handgonne,11,35000,1,True,False
+23943,Flame Captain's Cane,11,35000,1,True,False
+23946,Flame Captain's Rod,11,35000,1,True,False
+23949,Flame Captain's Grimoire,11,35000,1,True,False
+23952,Flame Captain's Codex,11,35000,1,True,False
+23955,Flame Captain's Star Globe,11,35000,1,True,False
+23958,Flame Captain's Samurai Blade,11,35000,1,True,False
+23961,Flame Captain's Tuck,11,35000,1,True,False
+2918,Ul'dahn Officer's Cap,9,4800,1,True,False
+3247,Ul'dahn Officer's Overcoat,9,7340,1,True,False
+3704,Ul'dahn Officer's Gloves,9,4650,1,True,False
+3925,Ul'dahn Officer's Boots,9,5100,1,True,False
+15503,Flame Lieutenant's Helm,10,12000,1,True,False
+15504,Flame Lieutenant's Coat,10,21000,1,True,False
+5357,Swan Feather,4,200,999,False,True
+5358,Eagle Feather,4,200,999,False,True
+5558,Pudding Flesh,4,200,999,False,True
+6151,Cooking Sherry,9,20,999,False,True
+6153,Filtered Water,9,20,999,False,True
+6154,Voidsent Blood,9,20,999,False,True
+5530,Coke,9,200,999,False,True
+5531,Animal Fat,9,200,999,False,True
+5502,Lime Sulphur,9,200,999,False,True
+5501,Potash,9,200,999,False,True
+5261,Aqueous Whetstone,9,200,999,False,True
+5119,Peacock Ore,9,200,999,False,True
+5274,Minium,9,200,999,False,True
+5532,Hardened Sap,9,200,999,False,True
+7596,Petrified Log,9,1500,999,False,True
+7597,Scheelite,9,1500,999,False,True
+7598,Raziqsand,9,1500,999,False,True
+7599,Saurian Skin,9,1500,999,False,True
+7600,Cashmere Fleece,9,1500,999,False,True
+7601,Emery,9,1500,999,False,True
+7806,Tawny Latex,9,450,999,False,True
+7602,Star Anise,9,30,999,False,True
+7603,Dalamud Popoto,9,30,999,False,True
+7604,Royal Kukuru Bean,9,30,999,False,True
+7605,Canard Breast,9,30,999,False,True
+9367,Arachne Web,9,2250,999,False,True
+9368,Wootz Ore,9,2250,999,False,True
+9370,Dubbin,9,2250,999,False,True
+9366,Borax,9,250,999,False,True
+9369,Raziqsap,9,250,999,False,True
+9371,Smoked Bacon,9,250,999,False,True
+9372,Roasted Coffee Beans,9,250,999,False,True
+10112,Urushi,9,600,999,False,False
+10113,Composite Whetstone,9,600,999,False,False
+10114,Heat-resistant Plaster,9,600,999,False,False
+10115,Clear Fluorite,9,600,999,False,False
+10116,Lampblack Linseed Oil,9,600,999,False,False
+10117,Camel Hair,9,600,999,False,False
+10118,Black Cinnabar,9,600,999,False,False
+10119,Duck Bones,9,600,999,False,False
+16933,Pneumite,9,4000,999,False,False
+9356,Quick-hardening Sealant,9,2300,999,False,True
+15649,Glass Fiber,9,7000,999,False,True
+9357,Xelphatol Spring Water,11,2500,999,False,True
