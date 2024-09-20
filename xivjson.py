@@ -40,6 +40,14 @@ def gc_items():
 
 gc_items = gc_items()
 
+# def unique_gc_items():
+#     import pandas as pd
+#     df = pd.read_csv()
+#     with open('GCScripShopItem.csv', 'r') as file:
+#         gc_items = json.load(file)
+
+# unique_gc_items = unique_gc_items()
+
 def recipe_dict(itemID):
     retval = {"id":itemID, "text":item_lookup[str(itemID)]["en"]}
     if not int(itemID) in reverse_recipe_lookup:

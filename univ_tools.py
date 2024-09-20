@@ -49,13 +49,13 @@ class univ_client:
         
     def raw_price_query(self, item_id, region = REGION_NA, params=None):
         region = region
-        def_params = {
-        'listings': 100,
-        'entries': 0,
-        'statsWithin': 99999,
-        # 'entriesWithin': 77777
-        }
-        params = def_params if params is None else params
+        # def_params = {
+        # 'listings': 100,
+        # 'entries': 0,
+        # 'statsWithin': 99999,
+        # # 'entriesWithin': 77777
+        # }
+        # params = def_params if params is None else params
         self.recent += 1
         if self.recent > 15 and (time.time()-self.last_reset) <= 1:
             time.sleep(1.5)
@@ -70,18 +70,23 @@ class univ_client:
             print(response.status_code)
             #maybe reenque?
 
+
+
     def raw_cached_query(self, item_id, region, params=None):
-        if item_id in self.cache:
+        if (item_id,region) in self.cache :
             print("found in cache")
-            results = self.cache[item_id]
-        else:
-            # print("query sent ",item_id)
-            results = self.raw_price_query(item_id, region, params)
-            if results is not None:
-                self.cache[item_id] = results 
+            results,timestamp = self.cache[(item_id,region)]
+            if results is not None and time.time()-timestamp <= 10*60:
+                return results
+
+        # print("query sent ",item_id)
+        results = self.raw_price_query(item_id, region, params)
+        if results is not None:
+            self.cache[(item_id,region)] = [results, time.time()] 
         return results
 
     def price_query(self, item_id, region = REGION_NA, params=None, **filter_args):
+        
         region = REGION_NA
         if "region" in filter_args:
             region = filter_args["region"]

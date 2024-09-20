@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 from univ_tools import univ_client
 from processing import process_listings, process_sales
 # from univ_tools import univ_client
@@ -18,6 +19,10 @@ hide_streamlit_style = """
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+st.title("Grand Company Seals Optimizer")
+st.header("Figure out what sells the best on your server!")
+st.subheader("Select a home server and click optimize to begin.")
+
 @st.cache_resource
 def get_univ_client():
     return univ_client()
@@ -26,9 +31,8 @@ univ_client = get_univ_client()
 @st.cache_resource
 def cache_tradeables():
     import pandas as pd
-    # df = pd.read_json(gc_items)
-    # return df[df["IsTradeable"]]
     df = pd.DataFrame.from_dict(gc_items, orient='index')
+    print(df.columns)
     return df[df["IsTradeable"]]
 tradeable_gc_items = cache_tradeables()
 # @st.cache_resource
@@ -39,14 +43,15 @@ print("Page Load")
 # lcol, rcol = st.columns([2,2])
 submit = None
 
+gcs = ["All GCs","Maelstrom","Twin Adders"," Immortal Flames"]
 with st.form("key"):
-    home = st.selectbox("Home Server", ["North-America"]+list(reverse_servers_lookup.keys()), 0)
-    gc = st.selectbox("Grand Company", ["Maelstrom","Twin Adders"," Immortal Flames"], None)
+    home = st.selectbox("Home Server", list(reverse_servers_lookup.keys()), None)
+    gc = st.selectbox("Grand Company", [0,1,2,3], 0, format_func=lambda x:gcs[x])#None)
     rank = st.selectbox("GC Rank", [x for x in range(11)][::-1], 0, format_func=lambda x:gc_ranks[x])
-    sales_window = st.number_input("Sales History WIndow, in days", 0, 14, value=7, step=1)
-    listings_window = st.number_input("Listings History Window, in days", 0, 14, value=7, step=1)
+    sales_window = st.number_input("Sales History WIndow, in days", 0, 14, value=3, step=1)
+    listings_window = st.number_input("Listings History Window, in days", 0, 14, value=3, step=1)
     # num_seals = st.number_input("Number of seals", 0, 40000, value=40000, step=1)
-    submit = st.form_submit_button("Calculate", "key")
+    submit = st.form_submit_button("Optimize","Optimize")
 
 
 # #TODO: default prio: what will make the most gil in the shortest amount of time
@@ -56,17 +61,29 @@ with st.form("key"):
 # ]
 
 out=None
+validate = False
 if submit is not None and submit:
+    if home is None:
+        validate=False
+        st.write("Please select a home server so relevant results can be shown- not exactly easy to sell GC stuff on the other side of the planet xD")
+    else:
+        validate=True
+if submit is not None and submit and validate:
     params = {
-            'listings': 10,
-            'entries': 30,
+            'listings': 300,
+            'entries': 200,
             'statsWithin': 1,
             }
     items = "".join([x+", " for x in tradeable_gc_items.index.to_list()])[:-2]
 
-    out = univ_client.raw_cached_query(items, region=home, params=params)
+    with st.spinner("Getting data from Universalis..."):
+        for wait in range(5):
+            out = univ_client.raw_cached_query(items, region=home, params=params)
+            if out is not None:
+                break
+            time.sleep(wait*wait)
     if out is None:
-        st.write("exec failed")
+        st.write("Unable to get data, try again later. Their API might be having issues or I may have screwed up the rate limiter on my end.")
     else:
         tradeable_gc_items["Item"] = tradeable_gc_items.index
 
@@ -74,9 +91,12 @@ if submit is not None and submit:
         #ytf are ventures marked tradeable? 
         tradeable_gc_items=tradeable_gc_items[tradeable_gc_items["Item"]!="21072"]
         tradeable_gc_items=tradeable_gc_items[tradeable_gc_items["RequiredGCRank"]<=rank+1]
+        print(tradeable_gc_items.columns)
+        if gc!=0:
+            tradeable_gc_items = tradeable_gc_items[(tradeable_gc_items["GrandCompany"]==gc)  |(tradeable_gc_items["GrandCompany"]==0)]
 
         disp_df = tradeable_gc_items[["Item","Name",#"Required Rank",
-                                    "GCSealsCost", "StackSize",#"IsUnique" #theyre all unique
+                                    "GCSealsCost", "StackSize"#,"GrandCompany"#"IsUnique" #theyre all unique
                                     ]]
 
         disp_df = disp_df.rename(columns = {"Item":"Item ID",
@@ -108,6 +128,10 @@ if submit is not None and submit:
         # st.write(out.keys())
         # user_agent = "GCSealsOptimizer/0.1"
         disp_df = disp_df.sort_values(by="Gil Moved per Day", ascending=False, na_position="last")
-        st.dataframe(disp_df)
+        disp_df = disp_df.round(2)
+        
+        with st.container():
+            st.dataframe(disp_df.style.format(precision=2, na_rep='NaN'))
         # if submit is not None:
         #     st.dataframe(tradeable_gc_items)
+        st.write('This app uses [universalis.app](https://universalis.app/) for data, go support them if you found this useful.')
