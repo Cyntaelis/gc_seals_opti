@@ -5,10 +5,18 @@ from processing import process_listings, process_sales
 # from univ_tools import univ_client
 from xivjson import gc_ranks, servers_lookup, reverse_servers_lookup, gc_items
 
+def lightweight_env_check(filename = "gitignore_this"):
+    try:
+        with open('gitignore_this'):
+            return False
+    except:
+        return True
+    
 st.set_page_config(
     layout="wide", 
     page_title="GC Seals Optimizer",
-    menu_items = {}
+    menu_items = {},
+    page_icon = ":crossed_swords:" if lightweight_env_check() else ":shark:"
     )
 
 hide_streamlit_style = """
@@ -91,7 +99,7 @@ if submit is not None and submit and validate:
         #ytf are ventures marked tradeable? 
         tradeable_gc_items=tradeable_gc_items[tradeable_gc_items["Item"]!="21072"]
         tradeable_gc_items=tradeable_gc_items[tradeable_gc_items["RequiredGCRank"]<=rank+1]
-        print(tradeable_gc_items.columns)
+
         if gc!=0:
             tradeable_gc_items = tradeable_gc_items[(tradeable_gc_items["GrandCompany"]==gc)  |(tradeable_gc_items["GrandCompany"]==0)]
 
@@ -129,9 +137,9 @@ if submit is not None and submit and validate:
         # user_agent = "GCSealsOptimizer/0.1"
         disp_df = disp_df.sort_values(by="Gil Moved per Day", ascending=False, na_position="last")
         disp_df = disp_df.round(2)
-        
+        disp_df = disp_df[disp_df.columns[1:]]
         with st.container():
-            st.dataframe(disp_df.style.format(precision=2, na_rep='NaN'))
+            st.dataframe(disp_df.style.format(precision=2, na_rep='NaN').hide(axis="index"))
         # if submit is not None:
         #     st.dataframe(tradeable_gc_items)
         st.write('This app uses [universalis.app](https://universalis.app/) for data, go support them if you found this useful.')
