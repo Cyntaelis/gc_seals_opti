@@ -40,7 +40,7 @@ univ_client = get_univ_client()
 def cache_tradeables():
     import pandas as pd
     df = pd.DataFrame.from_dict(gc_items, orient='index')
-    print(df.columns)
+    # print(df.columns)
     return df[df["IsTradeable"]]
 tradeable_gc_items = cache_tradeables()
 # @st.cache_resource
@@ -78,15 +78,17 @@ if submit is not None and submit:
         validate=True
 if submit is not None and submit and validate:
     params = {
-            'listings': 300,
-            'entries': 200,
-            'statsWithin': 1,
+            'listings': 700,
+            'entries': 500,
+            # 'statsWithin': 1,
             }
-    items = "".join([x+", " for x in tradeable_gc_items.index.to_list()])[:-2]
-
+    tradeable_gc_items=tradeable_gc_items[tradeable_gc_items.index!="21072"]
+    items = "".join([x+", " for x in tradeable_gc_items.index.to_list()])[:-1]
+    print(len(items.split(",")))
     with st.spinner("Getting data from Universalis..."):
         for wait in range(5):
             out = univ_client.raw_cached_query(items, region=home, params=params)
+            # print(out)
             if out is not None:
                 break
             time.sleep(wait*wait)

@@ -58,11 +58,11 @@ class univ_client:
         # params = def_params if params is None else params
         self.recent += 1
         if self.recent > 15 and (time.time()-self.last_reset) <= 1:
-            time.sleep(1.5)
+            time.sleep(3)
             self.recent = 0
             self.last_reset = time.time()
             
-        print("query sent")    
+        print("query sent", item_id, params)    
         response = requests.get(URL+f"{region}/{item_id}", params=params)
         if response.status_code == 200:
             return response.json()
@@ -72,18 +72,39 @@ class univ_client:
 
 
 
-    def raw_cached_query(self, item_id, region, params=None):
-        if (item_id,region) in self.cache :
+    def _raw_cached_query(self, item_id, region, params=None):
+        print(item_id)
+        if False and (item_id,region) in self.cache :
             print("found in cache")
             results,timestamp = self.cache[(item_id,region)]
-            if results is not None and time.time()-timestamp <= 10*60:
+            if results is not None and time.time()-timestamp <= 1*60:
                 return results
 
         # print("query sent ",item_id)
         results = self.raw_price_query(item_id, region, params)
         if results is not None:
             self.cache[(item_id,region)] = [results, time.time()] 
+        print(results.keys())
+        if "unresolvedItems" in results:
+            print(results["unresolvedItems"])
         return results
+
+    def raw_cached_query(self, item_id, region, params=None):
+        splits = 2
+        split_size=len(item_id)//splits
+        retval = {}
+        try:
+            for x in range(splits):
+                split_read = self._raw_cached_query(item_id[split_size*x:split_size*(x+1)], region, params)
+                if split_read is not None:
+                    retval = retval|split_read
+                else:
+                    return None
+                time.sleep(3)
+        except Exception as e:
+            print(e)
+            return None
+        return retval
 
     def price_query(self, item_id, region = REGION_NA, params=None, **filter_args):
         
