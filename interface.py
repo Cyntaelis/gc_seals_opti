@@ -113,8 +113,9 @@ if submit is not None and submit and validate:
                                 # "IsUnique":"Unique"
                                 })
 
-        disp_df["Avg Gil per Seal"] = disp_df["GC Seals Cost"]
-
+        disp_df["Avg Gil per Seal"] = disp_df["GC Seals Cost"] #affix col pos
+        disp_df["Seals per Stack"] = disp_df["Stack Size"] * disp_df["GC Seals Cost"] 
+    
         disp_df[["Avg Sale Price","Listings Sold", "Items Sold", "Unique Buyers"]] = \
             [process_sales(out["items"][x]["recentHistory"], window=sales_window) 
                            if (x in out["items"]) else [None,None,None,None]
@@ -132,6 +133,8 @@ if submit is not None and submit and validate:
         disp_df["Total Gil Moved"] = disp_df["Avg Sale Price"] * disp_df["Items Sold"]
 
         disp_df["Gil Moved per Day"] = disp_df["Avg Sale Price"] * disp_df["Items Sold"] / sales_window
+
+        disp_df["Sale:Listing Ratio"] = disp_df["Listings Sold"] / disp_df["Recent Listings"]
         # print(l,out)
         # st.write(out.keys())
         # user_agent = "GCSealsOptimizer/0.1"
